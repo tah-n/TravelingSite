@@ -49,7 +49,7 @@ const Menu = () => {
                 </Link>
                 {item.name === 'services' ? 
                 <div className="w-[1rem] flex items-center justify-center h-[1.5rem] m-1">
-                  <img src="images/vector.png"/>
+                  <img src="images/vector2.png"/>
                 </div> : null}
                 <div 
                   onMouseLeave={() => handleLeave()}
