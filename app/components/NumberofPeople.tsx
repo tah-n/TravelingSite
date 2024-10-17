@@ -11,7 +11,7 @@ const NumberofPeople = () => {
 
 
   return (
-    <div className='absolute z-[50] top-12 rounded-md bg-white py-2 shadow-md capitalize left-0 text-blue-darkblue w-[18rem] h-auto'>
+    <div className='absolute z-[50] top-12 rounded-md bg-white py-2 shadow-md capitalize left-0 text-blue-darkblue w-[16rem] sm:w-[18rem] h-auto'>
       <div className='w-full flex items-center justify-between px-5'>
         <p className='text-sm font-semibold'>adults</p>
         <div className='text-2xl font-semibold '>

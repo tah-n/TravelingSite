@@ -27,7 +27,6 @@ const Hero = () => {
   const [showCount,setShowCount] = useState(false);
   const adults = useProps(state => state.adults);
   const kids = useProps(state => state.kids);
-  const {open,setOpen} = useProps();
 
   const handleShowCount = () => {
     setShowCount(!showCount);
