@@ -31,10 +31,12 @@ const Hero = () => {
 
   const handleShowCount = () => {
     setShowCount(!showCount);
+    setShowCalendar(false);
   }
 
   const handleShowCalendar = () => {
     setShowCalendar(!showCalendar);
+    setShowCount(false);
   }
   
 
