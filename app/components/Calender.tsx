@@ -33,7 +33,7 @@ const Calender = () => {
   return (
     <div className="">
         <Calendar
-         className="w-[19rem] text-blue-darkblue absolute shadow-sm bg-white top-12 left-0  "
+         className="w-[17rem] md:w-[19rem] z-20 text-blue-darkblue absolute shadow-sm bg-white top-12 left-0  "
          selectable
          localizer={localizer}
          events={events}

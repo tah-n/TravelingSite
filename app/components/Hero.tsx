@@ -12,6 +12,7 @@ import Link from "next/link";
 import Calender from "./Calender";
 import moment from "moment";
 import NumberofPeople from "./NumberofPeople";
+import Backdrop from "./Backdrop";
 
 
 
@@ -26,6 +27,7 @@ const Hero = () => {
   const [showCount,setShowCount] = useState(false);
   const adults = useProps(state => state.adults);
   const kids = useProps(state => state.kids);
+  const {open,setOpen} = useProps();
 
   const handleShowCount = () => {
     setShowCount(!showCount);
@@ -170,7 +172,9 @@ const Hero = () => {
                 <div onClick={handleShowCount} className="form capitalize relative !border-none !w-fit flex items-center justify-center cursor-pointer hover:text-white">
                  <p>{adults>0 || kids>0? adults + ' adults,' + kids + ' kids' : 'how many people'}</p>
                 </div>
-                {showCount && <NumberofPeople />}
+                {showCount &&
+                <NumberofPeople />
+                }
               </div>
 
             <Button onClick={handleSubmit}>
