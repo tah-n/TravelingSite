@@ -106,7 +106,7 @@ const Hero = () => {
                 </Link>
                 {item.name === 'services' ? 
                 <div className="w-[1rem] flex items-center justify-center h-[1.5rem] m-1">
-                  <img src="images/vector.png"/>
+                  <img src="images/Vector2.png"/>
                 </div> : null}
                 <div 
                   onMouseLeave={() => handleLeave()}
@@ -138,13 +138,13 @@ const Hero = () => {
           <div className="relative py-2 flex text-white font-bold md:text-4xl sm:text-4xl p-8 md:px-0 text-3xl md:w-[30rem] xl:text-5xl md:mb-2 mb-4">
             <div className="absolute top-0">
             <img
-              src="images/vector 1.png"
+              src="images/Vector1.png"
               width={60}
               height={50}
               className="w-[60px] xl:w-[65px]"
             />
             </div>
-            <h1 className="line-clamp-3">
+            <h1 className="line-clamp-3 pb-2">
               No matter where 
               you're going to, we'll 
               take you there
