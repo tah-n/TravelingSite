@@ -41,3 +41,13 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+@media (max-width:450px){
+  .bg{
+    width: 103vw;
+  }
+}
+@media (min-width:450px){
+  .bg{
+    width: 100%;
+  }
+}

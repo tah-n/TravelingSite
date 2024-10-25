@@ -5,7 +5,6 @@ import HomePage from './HomePage';
 import Activities from './Activities';
 import { useProps } from '../assets/useStore';
 import Footer from './Footer';
-import Menu from './Menu';
 
 const HandlePages = () => {
     const {currentPage} = useProps();

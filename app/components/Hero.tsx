@@ -94,7 +94,7 @@ const Hero = () => {
 
 
   return (
-    <section id="home" className="h-[100vh] m-0 flex flex-col">
+    <section id="home" className="bg h-[100vh] m-0 p-0 flex flex-col">
        <div className="w-full h-full bg-center md:bg-hero bg-blue-oceanBlue md:bg-cover md:bg-no-repeat bg-[length:100%] bg-[width:100%] md:px-[8rem] xl:px-[15rem] lg:py-[3rem]">
         <div className="hidden w-full md:flex items-center justify-between ">
           <img src='/images/logo.png' alt="logo" width={100} height={100} />
